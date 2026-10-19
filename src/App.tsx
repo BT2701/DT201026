@@ -13,7 +13,6 @@ import { SecretLetter } from './components/SecretLetter'
 import { SiteHeader } from './components/SiteHeader'
 import { SoundToggle } from './components/SoundToggle'
 import { GiftProvider, useGift } from './context/GiftProvider'
-
 function Shell() {
   const { started, introKey, reducedMotion } = useGift()
   const transition = { duration: reducedMotion ? 0 : 0.45 }
